@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs34 \cf0 <?xml version=\'932.0\'94 encoded=\'93UTF-8\'94?>\
+
+\fs28 <!DOCTYPE prenotazione SYSTEM \'93viaggio.dtd\'94>\
+<prenotazione> 	<viaggio id=\'931\'94>\
+	<nome_utente=\'931\'94>Ciro Esposito</nome_utente>\
+	<prezzo=\'93990\'94>\
+\
+<andata id=\'931\'94>\
+	<destinazione_andata>Istanbul</destinazione_andata>\
+	<partenza id=\'931\'94>Milano</partenza>\
+	<scalo id=\'931\'94>roma</scalo>\
+	<data_d=\'9301/08/2025>\
+</andata>\
+<ritorno id=\'931\'94>\
+	<data_r=\'9308/08/2025>\
+	<scalo id=\'932\'94>roma</scalo>\
+	<destinazione_ritorno>Milano</destinazione_ritorno>\
+</ritorno>\
+</viaggio>\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+<viaggio id=\'932\'94>\
+	<nome_utente id=\'932\'94>Luigi Bianchi</nome_utente>\
+	<prezzo=\'93240\'94>\
+<andata id=\'932\'94>\
+	<destinazione_andata>Roma</destinazione_andata>\
+	<data_d=\'9306/08/2025>\
+	<partenza id=\'931\'94>Bologna</partenza>\
+</andata>\
+<ritorno id=\'932\'94>\
+	<destinazione_ritorno>Bologna</destinazione_ritorno>\
+	<data_r=\'9307/08/2025>\
+	<partenza id=\'932\'94>Roma</partenza>\
+</ritorno>\
+</viaggio>\
+</prenotazione>\
+\
+\
+DTD\
+<DOCTYPE prenotazione[\
+<!ELEMENT prenotazione (viaggio+)>\
+<!ELEMENT viaggio(nome_utente+,andata+,prezzo+,ritorno+)>\
+<!ELEMENT nome_utente(#PCDATA)>\
+<!ELEMENT prezzo(#PCDATA)>\
+<!ELEMENT andata(destinazione_andata, data_d, partenza+)>\
+<!ELEMENT destinazione_andata(#PCDATA)>\
+<!ELEMENT data_d(#PCDATA)>\
+<!ELEMENT partenza(#PCDATA)>\
+<!ELEMENT ritorno(destinazione_ritorno, data_r, partenza+)>\
+<!ELEMENT destinazione_ritorno(#PCDATA)>\
+<!ELEMENT data_r(#PCDATA)>\
+<!ELEMENT partenza(#PCDATA)>\
+\
+<!ATTLIST viaggio id ID #REQUIRED>\
+<!ATTLIST partenza id ID #AMPLIED>\
+<!ATTLIST scalo id ID#IMPLIED>\
+]>
+\fs38 \
+}

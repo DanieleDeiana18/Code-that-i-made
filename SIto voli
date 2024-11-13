@@ -1,0 +1,16 @@
+<?xml version=“2.0” encoded=“UTF-8”?>
+<!DOCTYPE prenotazione_voli SYSTEM "siti.dtd">
+<prenotazione_voli>
+<sito IDSITO="s001">
+<nome>Rynair</nome>
+<URL>https://www.ryanair.com/it/it</URL>
+<descrizione>Una compagnia di volo un pò incerta</descrizione>
+<categoria>Web site compagnia di volo</categoria>
+</sito>
+<sito IDSITO="s002">
+<nome>ITA AIRWAYS</nome>
+<URL>https://www.ita-airways.com/it_it/offerte/nuovi-voli.html?WT.mc_id=search_Google_GenericDSA&WT.srch=1&gad_source=1&gbraid=0AAAAABKQyCdIsBmuwiDBtbhirRy8-eJWt&gclid=Cj0KCQiA57G5BhDUARIsACgCYnxAamHgiQxQwba26IEUS3jptxa4Vwfqe-sfgWzjf1UvdpDxypRYAlMaAtR-EALw_wcB&gclsrc=aw.ds</URL>
+<descrizione>Compagnia di volo nazionale Italiana</descrizione>
+<categoria>Web site compagnia di volo</categoria>
+</sito>
+</prenotazione_voli>
