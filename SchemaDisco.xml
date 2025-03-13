@@ -1,0 +1,35 @@
+<xml version="2.0"encoding="UTF-8"?;>
+	<xs:schema xmis:xs="http://www.w3c.org/2001/XMLSchema">
+		<xs:element name="DISCO">
+			<xs:complextype>
+				<xs:sequence>
+					<xs:element name="artista" minOccurs="1">
+						<xs:complextype>
+							<xs:sequence>
+								<xs:element name="artista">
+											<xs:element name="commento" minOccurs="1">
+												<xs:complextype>
+													<xs:sequence>
+														<xs:element name="commento">
+																	<xs:element name="durata">
+																				<xs:element name="titolo">
+																							<xs:element name="anno" minOccurs="1">
+																								<xs:complextype>
+																									<xs:sequence>
+																										<xs:element name="anno">
+																													<xs:element name="canzone" minOccurs="1">
+																														<xs:complextype>
+																															<xs:sequence>
+																																<xs:element name="canzone">
+																																	<xs:complextype>
+																																		<xs:sequence>
+																																			<xs:attribute name="XSdisco"type="xs:string" use="required">
+																																				<xs:complextype>
+																																					<xs:sequence>
+																																						<xs:element>
+																																							<xs:equence>
+																																			
+																																			
+																																			
+																																	
+												

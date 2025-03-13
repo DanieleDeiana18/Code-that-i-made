@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmis:xs="http://www.w3c.org/2001/XMLSchema">
+	<xs:element name="banca">
+		<xs:attribute name="tipologia" type="xs:int" use="required"/>
+		<xs:complextype>
+			<xs:sequence>
+				<xs:element name="conto_corrente" maxOccurs="unbounded">
+					<xs:complextype>
+						<xs:sequence>
+							<xs:element name="id_persona">
+								<xs:element name="saldo">
+									<xs:element name="data_apertura">
+										<xs:element name="operazioni">
+											<xs:attribute name="operazioni" type="xs:float" use="required"/>
+											<xs:element name="data">
+												<xs:element name="quantita">
+													<xs:element name="saldo_parziale">
+													</xs:sequence>
+												</xs:complextype>
+											</xs:element>
+										</xs:sequence>
+									</xs:element>
+								</xs:schema>
