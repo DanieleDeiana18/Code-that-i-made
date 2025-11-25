@@ -1,0 +1,89 @@
+
+    h1 {
+        color: rgb(54, 52, 204) !important;
+        text-align: center;
+    }
+    div p {
+        color: rgba(41, 156, 66, 0.849) ;
+        font-size: 25px ;
+        text-align: center ;
+    }
+    section>p {
+    border: 1px solid #a72222;
+    }
+    div>p{
+        font-weight: bolder;
+        border: 2px solid crimson;
+        border-radius: 50px;
+            background-color: rgba(177, 123, 170, 0.603);
+    }
+    #t3 {
+        color: orange;
+        font-size: 30px;
+        text-align: right;
+    }
+  .div1 {
+    background-color: lightgray;
+    padding: 30px;
+    margin:20px;
+  }
+  .Forme {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+    display: inline-block;
+  }
+  #circle {
+    background-color: red;
+    border-radius: 50%;
+      margin-left: 50px;
+      margin-right: 10px;
+  }
+  #box {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+      margin-left: 50px;
+      margin-bottom: 90px ;
+  }
+    #insidebox1 {
+        width: 50px;
+        height: 50px;
+        background-color: yellow;
+        margin-left: 25px;
+        margin-top: 25px;
+        
+    }
+        #insidebox2 {
+            width: 50px;
+            height: 50px;
+            background-color: rgb(212, 20, 164);
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+ #triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+    margin-left: 100px;
+      margin-right: 10px;
+}
+#section1 img {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#bt {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 20px;
+}

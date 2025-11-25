@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.R.M.A. - Ristorazione Collettiva Alto Adige</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://www.armarist.it/content/images/logos/logo-arma.svg" alt="ARMA Logo">
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#chi-siamo">Chi siamo</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#perche-sceglierci">Perché sceglierci</a></li>
+                    <li><a href="#ristoranti">Ristoranti</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><button class="btn-contattaci">Contattaci</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">In Alto Adige a tavola con Arma</h1>
+            <p class="hero-subtitle">La gastronomia non è solo una questione di cibo, ma di esperienza e tradizione.</p>
+        </div>
+        <div class="hero-image">
+            <img src="a-tavola-con-arma.jpg" alt="Tavola ARMA">
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section class="section sp1" id="chi-siamo">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="image-side">
+                    <img src="chi-siamo.jpg" alt="Chi siamo ARMA">
+                </div>
+                <div class="text-side">
+                    <h2>Chi siamo</h2>
+                    <p>Dal 1986, quando abbiamo aperto le porte della prima sede A.R.M.A. Bolzano, ci siamo proposti di essere molto più di un semplice fornitore di servizi di ristorazione.</p>
+                    <p>Il nostro approccio si basa sulla cucina tradizionale, seguendo principi fondamentali come l'uso di materie prime di altissima qualità, la professionalità del nostro personale, la prontezza nell'adattarsi alle esigenze dei clienti e un'attenzione particolare alle tradizioni altoatesine.</p>
+                    <p>Il marchio A.R.M.A. è garanzia di qualità, confermata dalla fiducia costante delle aziende clienti nel tempo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Numeri -->
+    <section class="numbers-section">
+        <div class="container">
+            <div class="numbers-grid">
+                <div class="number-item">
+                    <img src="https://www.armarist.it/media/x5qdtsga/cucine.svg" alt="Cucine">
+                    <div class="number">15</div>
+                    <div class="label">cucine centralizzate sul territorio</div>
+                </div>
+                <div class="number-item">
+                    <img src="https://www.armarist.it/media/ly4nyyaf/dipendenti.svg" alt="Dipendenti">
+                    <div class="number">150</div>
+                    <div class="label">dipendenti</div>
+                </div>
+                <div class="number-item">
+                    <img src="https://www.armarist.it/media/s0xe4i5o/ristoranti.svg" alt="Ristoranti">
+                    <div class="number">2</div>
+                    <div class="label">ristoranti self-service</div>
+                </div>
+                <div class="number-item">
+                    <img src="https://www.armarist.it/media/wuihll54/pasti.svg" alt="Pasti">
+                    <div class="number">5000</div>
+                    <div class="label">pasti serviti ogni giorno</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Storia -->
+    <section class="section sp2" id="storia">
+        <div class="container">
+            <div class="content-wrapper reverse">
+                <div class="text-side">
+                    <h2>La nostra storia</h2>
+                    <p>Grazie alla visione e alla determinazione dei fondatori Mario Ilardi, Mario Maracci e Vittorino Riccardi, siamo cresciuti da una piccola azienda famigliare a una realtà solida e riconosciuta.</p>
+                    <p>Da quel 1986, quando abbiamo posto le radici a Bolzano, con l'obiettivo di trasformare la ristorazione collettiva dell'Alto Adige, il nostro cammino è stato caratterizzato da uno sviluppo costante e da una crescita sicura e fiera.</p>
+                    <p>In questi anni, abbiamo lavorato instancabilmente per conquistare la fiducia e l'apprezzamento della nostra comunità e dei nostri clienti, fino a rendere A.R.M.A. il partner della ristorazione collettiva più affidabile e presente di tutto il territorio dell'Alto Adige.</p>
+                    <p class="highlight">SIAMO PRONTI PER I PROSSIMI 40 ANNI DI SERVIZIO ED ECCELLENZA.</p>
+                </div>
+                <div class="image-side">
+                    <img src="https://www.armarist.it/media/nk1j0q2x/storia.jpg" alt="La nostra storia">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <h1>Perche sceglierci</h1>
+        <p>Scegliere A.R.M.A. significa optare per un servizio caratterizzato da menù sani e equilibrati, ingredienti di alta qualità, attenzione alle esigenze del cliente, innovazione costante e un elevato standard di qualità</p>
+         <ul class="menu">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" onclick="toggleDropdown()">Menu ▾</a>
+            <ul class="dropdown-menu" id="myDropdown">
+                <li><a href="#">Voce 1</a></li>
+                <li><a href="#">Voce 2</a></li>
+                <li><a href="#">Voce 3</a></li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+function toggleDropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Chiudi il dropdown se si clicca fuori
+window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-toggle')) {
+        var dropdowns = document.getElementsByClassName("dropdown-menu");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+</script>
+
+
+
+    </div>
+
+    <!-- Servizi -->
+    <section class="services-section" id="servizi">
+        <div class="container">
+            <h2 class="section-title">News</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://www.armarist.it/media/zb5q1k2a/mense-aziendali.jpg" alt="Mense aziendali">
+                    <h3>Mense aziendali</h3>
+                    <p>Servizi di ristorazione per aziende e uffici</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.armarist.it/media/k4j3l2s1/ristorazione-collettiva.jpg" alt="Ristorazione collettiva">
+                    <h3>Ristorazione collettiva</h3>
+                    <p>Servizi per scuole, ospedali e comunità</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.armarist.it/media/m8n9p0q3/catering.jpg" alt="Catering">
+                    <h3>Catering</h3>
+                    <p>Servizi di catering per eventi e occasioni speciali</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://www.armarist.it/content/images/logos/logo-arma-white.svg" alt="ARMA Logo">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 A.R.M.A. - Tutti i diritti riservati</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 1000;
+      justify-content: center;
+      display: inline-block;
+display: grid
+      .logo {
+ .
+  margin-right: auto; 
+}
+    
+    .hd {
+    
+    gap: 20px;
+     display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+/* allinea nav e bottoni verticalmente */
+nav {
+    display: flex;
+    gap: 30px;
+}
+}
+
+
+.Bottoni {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.Bottoni li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.fa, .fa-classic, .fa-sharp, .fas, .fa-solid, .far, .fa-regular, .fab, .fa-brands {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fa-search {
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(137, 33, 107, 1) 0%, rgba(212, 28, 28, 1) 100%);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.fa-search:hover {
+    opacity: 0.8;
+}
+
+.fa-bell {
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(137, 33, 107, 1) 0%, rgba(212, 28, 28, 1) 100%);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.fa-bell:hover {
+    opacity: 0.8;
+}
+
+.fa-moon {
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(137, 33, 107, 1) 0%, rgba(212, 28, 28, 1) 100%);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.fa-moon:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.78;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.ct {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    background-color: #f1d9bc75;
+     border-radius: 5px;
+    
+     #IT {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#HM {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: gray;
+}
+}

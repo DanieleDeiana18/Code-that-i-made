@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* contenitore principale */
+.container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* riga principale che contiene gli item */
+.row {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid blue;
+    flex-wrap: nowrap;
+}
+
+/* stile generico per item */
+.item {
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Item1: contenitore che centra le "box" dentro di sé */
+.item.item1 {
+    display: flex;
+    flex-direction: row; /* ora le "box" sono in linea orizzontale */
+    align-items: center; /* allinea verticalmente le box rispetto al titolo */
+    justify-content: center;
+    gap: 12px;           /* spazio tra titolo e box / tra le box */
+    padding: 8px 12px;
+    min-width: 0;
+}
+
+/* titolo interno di item1 */
+.item.item1 .title {
+    margin-right: 8px;   /* spaziatura tra titolo e prime box */
+    margin-bottom: 0;    /* rimuove lo spazio verticale residuo */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* "Scatole" interne a item1 */
+.box {
+    width: 80px;
+    height: 80px;
+    background: #e6e6e6;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* effetto hover per le box */
+.box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
+
+/* utilità: se vuoi le box affiancate dentro item1 */
+.item.item1.row {
+    flex-direction: row;
+}
+
+/* correzione esempio #container2 (se usato altrove) */
+#container2 {
+    border: 1px solid #000;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+#container2 span {
+    height: 2em;
+    background-color: #ffffee;
+}
+
+/* applica lo stesso stile a item1 */
+.item.item1
+ > .box,
+.item.box {
+    width: 80px;
+    height: 80px;
+    background: #e6e6e6;
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    /* rimossa la transizione/hover per non avere effetti al passaggio del mouse */
+}
+
+#containe3: first-child {
+    order: -1;
+}
+#containe4: nth-child(2) {
+    order: -2;
+}
+#container article{
+    width: 100%;
+    flex-basis: 30%;
+}

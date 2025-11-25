@@ -1,0 +1,30 @@
+.quadrato{
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+     border-style: solid;
+    border-width: 1px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: yellow   ;
+    color: black;
+    position:absolute;
+}
+#box4{
+    background-color: blue;
+    
+}
+#box5{
+    background-color: pink;
+    z-index: -10;
+}

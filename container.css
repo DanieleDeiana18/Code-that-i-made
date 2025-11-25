@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#titleContainer {
+  font-size: 20px;
+}
+
+#titleContainerFiglia {
+  font-size: 10px;
+}
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2rem;
+  background-color: aqua;
+
+}
+.spiegazione {
+  background-color: yellow;
+}
+figure{
+  margin-top: 20px;
+  margin-bottom: 20px;
+width: 30vw;
+height: 100vh;
+}
