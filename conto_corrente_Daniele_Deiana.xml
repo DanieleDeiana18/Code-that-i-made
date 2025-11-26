@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banca>
+	<conto_corrente id="1"> 
+			<numero_conto="132524">
+					<id_persona>001</id_persona>
+							<saldo>250</saldo>
+									<data_apertura>07/09/2017</data_apertura>
+		<operazioni id="1">
+				<tipologia="versamento">
+					<data>07/09/2017</data>
+						<quantita>250</quantita>
+								<saldo_parziale>250<saldo_parziale>
+		</operazioni>
+	</conto_corrente>
+	<conto_corrente id="2">
+			<numero_conto="132523">
+					<id_persona>002</id_persona>
+							<saldo>700</saldo>
+									<data_apertura>10/12/2016</data_apertura>
+			<operazioni id="2">
+					<tipologia="versamento">
+						<data>10/12/2016</data>
+							<quantita>100</quantita>
+								<saldo_parziale>100<saldo_parziale>
+								</operazioni>
+					<operazione id="3">
+							<tipologia="prelievo">
+								<data>31/01/2017</data>
+									<quantita>200</quantita>
+										<saldo_parziale>-100<saldo_parziale>
+										</operazioni>
+			<operazione id="4">
+				<tipologia="versamento">
+					<data>15/04/2017</data>
+						<quantita>400</quantita>
+							<saldo_parziale>300<saldo_parziale>
+			</operazioni>
+		<operazione id="5">
+			<tipologia="versamento">
+					<data>07/09/2017</data>
+						<quantita>600</quantita>
+								<saldo_parziale>900<saldo_parziale>
+		</operazioni>
+		<operazione id="6">
+				<tipologia="prelievo">
+					<data>08/09/2017</data>
+						<quantita>200</quantita>
+								<saldo_parziale>700<saldo_parziale>
+		</operazioni>
+	</conto_corrente>
+</banca>
+DTD
+<DOCTYPE banca[
+<!ELEMENT banca (conto_corrente+)>
+<!ELEMENT conto_corrente(id_persona,saldo,data_apertura,operazioni+)>
+<!ELEMENT id_persona(#PCDATA)>
+<!ELEMENT saldo(#PCDATA)>
+<!ELEMENT data_apertura(#PCDATA)>
+<!ELEMENT operazioni(data,quantita,saldo_parziale)>
+<!ELEMENT data(#PCDATA)>
+<!ELEMENT quantita(#PCDATA)>
+<!ELEMENT saldo_parzialerno(#PCDATA)>
+
+<!ATTLIST id_persona id ID #REQUIRED>
+<!ATTLIST saldo id ID #AMPLIED>
+<!ATTLIST operazioni id ID#IMPLIED>
+]>
